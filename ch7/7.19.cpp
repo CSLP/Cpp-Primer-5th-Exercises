@@ -13,7 +13,7 @@ struct Person {
   std::string getName() const { return name; }
   std::string getAddress() const { return address; }
 
-  // data members which are part of implementation shoule be private
+  // data members which are part of implementation should be private
   std::string name;
   std::string address;
 };
